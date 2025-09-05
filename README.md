@@ -194,7 +194,6 @@ User Query
      ▼
  User Response
 ```
-
 ---
 
 ### **Mermaid Diagram Code**
@@ -224,4 +223,5 @@ This framework builds upon:
 * **ReACT**: Synergizing Reasoning and Acting in Language Agents ([arXiv](https://arxiv.org/abs/2210.03629))
 * **SERP API**: Real-time web search integration
 * **GEMINI API**: Structured knowledge retrieval
+
 
