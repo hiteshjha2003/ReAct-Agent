@@ -196,23 +196,23 @@ User Query
 ```
 ---
 
-### **Mermaid Diagram Code**
-
 ```mermaid
 flowchart TD
-    A[User Query] --> B[ReACT Agent]
-    B --> C1[Reasoning Step 1]
-    C1 --> D1[Decide Action]
-    D1 --> E1[SERP Search API]
-    D1 --> E2[GEMINI API]
-    E1 --> F1[Retrieve Web Results]
-    E2 --> F2[Retrieve Structured Results]
-    F1 --> G1[Integrate Retrieved Knowledge]
+    A["User Query"] --> B["ReACT Agent"]
+    B --> C1["Reasoning Step 1"]
+    C1 --> D1["Decide Action"]
+    D1 --> E1["SERP Search API"]
+    D1 --> E2["GEMINI API"]
+    E1 --> F1["Retrieve Web Results"]
+    E2 --> F2["Retrieve Structured Results"]
+    F1 --> G1["Integrate Retrieved Knowledge"]
     F2 --> G1
-    G1 --> C2[Reasoning Step 2 (Optional)]
-    C2 --> H[Final Answer Generation]
-    H --> I[User Response]
+    G1 --> C2["Reasoning Step 2 - Multi-Step"]
+    C2 --> H["Final Answer Generation"]
+    H --> I["User Response"]
 ```
+
+
 
 ---
 
@@ -223,5 +223,6 @@ This framework builds upon:
 * **ReACT**: Synergizing Reasoning and Acting in Language Agents ([arXiv](https://arxiv.org/abs/2210.03629))
 * **SERP API**: Real-time web search integration
 * **GEMINI API**: Structured knowledge retrieval
+
 
 
